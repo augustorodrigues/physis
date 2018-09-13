@@ -1,0 +1,273 @@
+/*
+*
+* @author Augusto Rodrigues
+*
+*/
+
+/* === LAYOUT === */
+html, body, .capa {
+	height: 100%;	
+}
+
+body {	
+	background: url('../imagens/bg.jpg') no-repeat;		
+	background-attachment: fixed;
+	background-size: 100%;
+	background-size: cover;
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+/* -- Barra de Navegação -- */
+.img-logo {
+	height: 45px;
+	width: 132px;
+	display: block; /* span é inline e quero definir como bloco */
+	background: url('../imagens/physis-logo.png') no-repeat;
+	background-size: contain;
+	color: transparent; /* manter os textos pois os leitores de tela os reconhecem */
+}
+
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(0,0,0,0.6); /* definição da transparencia da barra de menus */
+	border: none;
+}
+
+.navbar-brand {	
+	padding: 5px 15px; /* sobreescrita de classe para centralizar logo */
+}
+
+.divisor { /* divisor contato | inscrever-se */
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a, #rodape .nav a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, #rodape .nav a:hover {
+	color: #9bf0e1;
+	background: none;
+}
+
+/* -- Imagem de Capa -- */
+.capa {	
+	display: table;
+	width: 100%;
+}
+
+.texto-capa {
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/* -- Botões -- */
+.btn-custom {
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px; /* Chrome */
+	-moz-border-radius: 500px; /* Firefox */
+	-o-border-radius:500px; /* Opera */
+	padding: 10px 35px;
+	margin: 0px 15px;
+	text-transform: uppercase;
+	transition: background 0.4s, color 0.4s;
+}
+
+.btn-azul1 {
+	background: #041d37;	
+}
+.btn-azul1:hover {	
+	background: #0a093b;
+	color: #9bf0e1;
+}
+
+.btn-azul2 {
+	background: #133253;
+
+}
+.btn-azul2:hover {
+	background: #1b1a59;
+	color: #9bf0e1;
+}
+
+/* -- seção a-physis -- */
+#a-physis {
+	background: white;	
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.fotos {
+	padding: 30px 0px 30px 0px;
+}
+
+.titulo {	
+	margin-top: 20px;
+}
+
+/* -- seção planos -- */
+#planos {
+	background: linear-gradient(50deg,rgba(65,140,218,0.6),rgba(8,100,195,0.6));
+	padding-top: 20px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.plano-individual {
+	background: #041d37;
+	border-radius: 10px;
+	padding: 20px;
+	/*padding-bottom: 50px;*/
+}
+
+.plano-parceiro {
+	background: #133253;
+	border-radius: 10px;
+	padding: 20px;
+
+}
+
+.plano-familia {
+	background: #041d37;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.plano-individual a {
+	margin-top: 30px;	
+}
+
+/* -- seção aulas -- */
+#aulas {
+	background: white;
+	padding: 30px 0px 50px 0px;
+}
+
+.agenda .agenda-data { 
+	width: 170px; 
+}
+
+.agenda .agenda-data .horario {
+  	width: 40px;
+  	font-size: 36px;
+  	line-height: 36px;
+  	float: left;
+  	text-align: right;
+  	margin-right: 55px;  	
+}
+.agenda .agenda-data .periodo {  	
+  	font-size: 15px;
+  	margin-top:12px;
+}
+
+#matricula {
+	/*background: linear-gradient(50deg,rgba(65,140,218,0.6),rgba(8,100,195,0.6));	*/
+	background: rgba(0,0,0,0.7);
+	padding-top: 20px;
+	padding-bottom: 40px;
+	/*text-align: center;*/
+}
+
+.conteudo_direita {
+	text-align: right;	
+}
+
+.conteudo_direita2 {
+	text-align: right;
+	padding-bottom: 30px;
+}
+
+#contato {
+	background: #D3D3D3;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+/* -- Rodape -- */
+#rodape {
+	background: rgba(0,0,0,0.95);
+	padding: 50px 0px 20px 0px;
+}
+
+.rede-social {
+	float: right;
+}
+
+.copyright {
+	color: white;
+	padding-top: 30px;
+}
+
+.copyright a {
+	text-decoration: none;	
+}
+
+/* === TIPOGRAFIA === */
+h1 {
+	font-size: 80px;
+	font-weight: 600;
+	letter-spacing: -2px;
+	margin-bottom: 50px;
+}
+
+h2 {
+	font-size: 46px;
+	font-weight: 600;
+	letter-spacing: -2px;
+}
+
+h3 {
+	font-size: 30px;
+	font-weight: 600;
+	letter-spacing: -2px;
+}
+#rodape h4 {
+	color: #919496;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+#rodape p {
+	color: white;
+}
+
+#rodape p:hover {
+	color: #9bf0e1;
+}
+
+#a-physis h2, #a-physis h3, #planos h2, #aulas h2 {
+	color: #041d37;	
+}
+
+#aulas h2, #aulas p, #matricula h2, #contato h2 {
+	text-align: center;
+}
+
+#planos h3 {
+	color: white;	
+	margin-top: 10px;
+}
+
+#planos .plano-individual p  {
+	color: #4e987e;	
+	font-size: 20px;
+}
+
+#planos .plano-parceiro p  {
+	color: #7db8a3;	
+	font-size: 20px;
+}
+
+#planos .plano-familia p  {
+	color: #4e987e;	
+	font-size: 20px;
+}
+
+#matricula  h2, #matricula label, #matricula legend {
+	color: #919496;
+}
