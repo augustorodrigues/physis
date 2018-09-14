@@ -1,4 +1,4 @@
-<?php 
+<?php /*
 	session_start();
 
 	require_once("conexao.php");
@@ -34,7 +34,6 @@
 			header("Location: administracao.php");
 		} else {
 			header("Location: painel.php");
-	}
+	}*/
 
 ?>
-
