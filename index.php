@@ -46,7 +46,7 @@
 					<li><a href="#matricula">Matricule-se</a></li>
 					<li><a href="#contato">Contato</a></li>
 					<li class="divisor" role="separator"></li>					
-					<li><a href="login.php">Entrar</a></li>				
+					<li><a href="codigo_php_antigo/login.php">Entrar</a></li>
 				</ul>				
 			</div>
 		</div><!-- /container -->		
