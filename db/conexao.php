@@ -3,7 +3,7 @@
 class db {
     private $host = 'localhost';
     private $user = 'root';
-    private $password = '1';
+    private $password = '';
     private $database = 'physis';
 
     function conectar() {
