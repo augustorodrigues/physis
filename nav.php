@@ -13,7 +13,7 @@
             <a href="index.php" class="navbar-brand">					
                 <span class="img-logo">Physis</span>
             </a>
-        </div><!-- navbar -->
+        </div><!-- navbar teste -->
 
         <div class="collapse navbar-collapse" id="barra-navegacao">
             <ul class="nav navbar-nav navbar-right">
